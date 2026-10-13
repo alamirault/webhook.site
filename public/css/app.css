@@ -1381,7 +1381,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #333333;
+  color: #1a2a4a;
   background-color: #fff;
 }
 
@@ -7751,7 +7751,7 @@ body {
  */
 .sub-header {
   padding-bottom: 10px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #c8d8ea;
 }
 
 .break {
@@ -7773,7 +7773,7 @@ body {
 
 abbr[title] {
   text-decoration: none;
-  border-bottom: 1px dotted #CCC;
+  border-bottom: 1px dotted #90aece;
 }
 
 .debug {
@@ -7821,8 +7821,8 @@ abbr[title] {
     overflow-x: hidden;
     overflow-y: auto;
     /* Scrollable contents if viewport is shorter than content. */
-    background-color: #f5f5f5;
-    border-right: 1px solid #eee;
+    background-color: #eef2f8;
+    border-right: 1px solid #c8d8ea;
   }
 }
 
@@ -7860,7 +7860,7 @@ abbr[title] {
 
 .nav-sidebar .unread {
   font-weight: bold;
-  background-color: #e8e8e8;
+  background-color: #dce8f5;
 }
 
 .select:hover + .delete, .delete:hover {
@@ -7872,7 +7872,7 @@ abbr[title] {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 80%;
-  color: #999;
+  color: #6a88b0;
 }
 
 /*
@@ -7887,9 +7887,9 @@ abbr[title] {
 }
 
 div#tutorial {
-  background-color: #f5f5f5;
+  background-color: #eef2f8;
   padding: 10px 10px 5px;
-  border: 1px solid #dcdbdb;
+  border: 1px solid #bccfdf;
   border-radius: 4px;
   margin-bottom: 20px;
 }
@@ -7899,11 +7899,11 @@ div#tutorial p:last-of-type {
 }
 
 div#tutorial hr {
-  border-top-color: #dcdbdb;
+  border-top-color: #bccfdf;
 }
 
 div#tutorial code {
-  background: #e3e3e3;
+  background: #d6e5f5;
   font-size: 120%;
 }
 
@@ -7949,8 +7949,8 @@ a[ng-click] {
 }
 
 code {
-  background: #EEE;
-  color: #333;
+  background: #dde8f5;
+  color: #1a2a4a;
 }
 
 /*
@@ -7976,7 +7976,7 @@ code {
 }
 
 #noContent {
-  color: #ccc;
+  color: #90aece;
 }
 
 #req-content pre {
@@ -7988,7 +7988,7 @@ code {
    */
 /* pre {outline: 1px solid #ccc; padding: 5px; margin: 5px; } */
 .string {
-  color: #343333;
+  color: #1a2a4a;
 }
 
 .number {
@@ -8008,7 +8008,7 @@ code {
 }
 
 .key {
-  color: #676566;
+  color: #2c5282;
   font-weight: bold;
 }
 

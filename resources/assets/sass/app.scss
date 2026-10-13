@@ -5,7 +5,7 @@
  * Variables
  */
 
-$sideBarBackground: #f5f5f5;
+$sideBarBackground: #eef2f8;
 $sideBarActive: #428bca;
 $warning: #d9534f;
 
@@ -16,6 +16,7 @@ $warning: #d9534f;
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
+  color: #1a2a4a;
 }
 
 
@@ -25,7 +26,7 @@ body {
 
 .sub-header {
   padding-bottom: 10px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #c8d8ea;
 }
 
 .break {
@@ -47,7 +48,7 @@ body {
 
 abbr[title] {
   text-decoration: none;
-  border-bottom: 1px dotted #CCC;
+  border-bottom: 1px dotted #90aece;
 }
 
 .debug {
@@ -95,8 +96,8 @@ abbr[title] {
     padding: 20px;
     overflow-x: hidden;
     overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-    background-color: #f5f5f5;
-    border-right: 1px solid #eee;
+    background-color: #eef2f8;
+    border-right: 1px solid #c8d8ea;
   }
 }
 
@@ -143,7 +144,7 @@ abbr[title] {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 80%;
-  color: #999;
+  color: #6a88b0;
 }
 
 /*
@@ -221,8 +222,8 @@ a[ng-click]{
 }
 
 code {
-  background: #EEE;
-  color: #333;
+  background: #dde8f5;
+  color: #1a2a4a;
 }
 
 /*
@@ -246,7 +247,7 @@ code {
 }
 
 #noContent {
-  color: #ccc;
+  color: #90aece;
 }
 
 #req-content {
@@ -260,9 +261,9 @@ code {
    */
 
   /* pre {outline: 1px solid #ccc; padding: 5px; margin: 5px; } */
-.string { color: #343333; }
+.string { color: #1a2a4a; }
 .number { color: #ba8000; }
 .boolean-true { color: #3cbe17; }
 .boolean-false { color: #bc1233; }
 .null { color: #2428c5; }
-.key { color: #676566; font-weight: bold; }
+.key { color: #2c5282; font-weight: bold; }
